@@ -42,7 +42,7 @@ function RegenerateNoise() {
 
     ctx.putImageData(imageData, 0, 0);
     setTimeout(() => {
-        zAxis += 1;
+        zAxis += 0.4;
         RegenerateNoise();
     }, 16);
 }
